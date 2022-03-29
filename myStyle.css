@@ -1,0 +1,42 @@
+body 
+{
+    font-family: 'Abel', sans-serif;
+	font-size: 25px;
+    color: #004d77;
+    background: #fcb7bf;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #bfe9ff, #fcb7bf);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #bfe9ff, #fcb7bf); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}    
+
+h1
+{
+    margin: 8px;
+	text-align: left;
+	animation-name: apare; 
+	animation-duration: 2s;
+}
+
+h2, h3
+{
+    margin: 8px;
+	text-align: left;
+    color: #f86a7b;
+}
+
+p
+{
+    margin: 8px;
+    line-height: 1;
+}
+
+b
+{
+    color: #f86a7b;
+}
+
+@keyframes apare 
+{
+    0%   {color: rgba(10,40,89, 0.1); font-size: 30px;}
+	15%   {color: rgba(10,40,89, 0.1); font-size: 30px;}
+    100% {color: rgba(10,40,89, 1); font-size: 50px;}
+}
