@@ -1,0 +1,71 @@
+body
+{
+    font-family: monospace;
+    font-size: 15px;
+}
+
+h1
+{
+    background-color: rgb(0, 179, 149, 0.7);
+    padding: 20px;
+}
+
+input, select, textarea
+{
+    font-family: monospace;
+    font-size: 15px;
+    width: 40%;
+    text-align: left;
+}
+
+.inpRadio
+{
+    width: fit-content;
+}
+
+label
+{
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: left;
+    width: 200px;
+    vertical-align: top;
+}
+
+.formDiv
+{
+    margin: 20px;
+    width: 50%;
+}
+
+p
+{
+    text-decoration: underline;
+}
+
+#myForm
+{
+    display: flex;
+}
+
+textarea
+{
+    resize: none;
+}
+
+#submitBar 
+{
+    position: static;
+    background-color: rgb(0, 179, 149, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+button
+{
+    font-family: monospace;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 auto;
+}
